@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./cssweb/thongtin.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button class="back-button">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        <h1>Thông tin</h1>
+    </div>
+
+    <div class="options">
+        <a href="#" class="option-item">
+            <div class="option-icon">
+                <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <span class="option-name">Giảng viên</span>
+        </a>
+        <a href="#" class="option-item">
+            <div class="option-icon">
+                <i class="fas fa-user-graduate"></i>
+            </div>
+            <span class="option-name">Sinh viên</span>
+        </a>
+    </div>
+
+    <script>
+        document.querySelector('.back-button').addEventListener('click', () => {
+            window.location.href = 'home.html';
+        });
+    </script>
+</body>
+</html>

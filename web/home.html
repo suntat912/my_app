@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <link rel="stylesheet" href="./cssweb/home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="header">
+        <h2>Hi, </h2>
+        <div class="user-avatar">
+            <i class="fas fa-user"></i>
+        </div>
+    </div>
+
+    <div class="recent-notifications">
+        <h3>Thông báo gần đây</h3>
+        <div class="notification-box"></div>
+        <div class="dot-indicators">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>   
+        </div>
+    </div>
+
+    <div class="features">̉
+            <div class="feature-icon">
+                <i class="fas fa-info-circle"></i>
+            </div>
+            <span class="feature-name">Thông tin</span>
+        </div>
+
+
+        <div class="feature-item">
+            <div class="feature-icon">
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+            <span class="feature-name">Lịch học</span>
+        </div>
+        <div class="feature-item">
+            <div class="feature-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <span class="feature-name">Điểm số</span>
+        </div>
+        <div class="feature-item">
+            <div class="feature-icon">
+                <i class="fas fa-folder"></i>
+            </div>
+            <span class="feature-name">Tài liệu tham khảo</span>
+        </div>
+        <div class="feature-item">
+            <div class="feature-icon">
+                <i class="fas fa-file-alt"></i>
+            </div>
+            <span class="feature-name">Khảo sát</span>
+        </div>
+    </div>
+
+    <nav class="bottom-nav">
+        <a href="#" class="nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Trang chủ</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fas fa-comments"></i>
+            <span>Tin nhắn</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fas fa-bell"></i>
+            <span>Thông báo</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fas fa-cog"></i>
+            <span>Cài đặt</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fas fa-user"></i>
+            <span>Tài khoản</span>
+        </a>
+    </nav>
+
+    <script>
+        document.querySelector('.feature-item').addEventListener('click', () => {
+            window.location.href = 'thongtin.html';
+        });
+    </script>
+    <script src="./jsweb/home.jsx"></script>
+</body>
+</html>

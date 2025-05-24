@@ -1,0 +1,40 @@
+name: my_app
+description:
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+
+dependencies:
+  google_fonts: ^6.1.0
+
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.2.0
+  http: 1.1.0
+  carousel_slider: ^4.2.1
+  dio: ^4.0.0  # Phiên bản mới nhất của dio
+
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  assets:
+    - assets/image1.jpg
+    - assets/image2.jpg
+    - assets/image3.jpg
+  uses-material-design: true
+
